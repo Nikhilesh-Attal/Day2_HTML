@@ -21,9 +21,30 @@
                 <input type="number" min="18" max="30" placeholder="Age" required><br>
                 <label for="Father's name">Enter father's name</label>
                 <input type="text" name="father's name" id="father's name" ><br>
-                <label for="">Select Gender</label>
-                <input type="ratio" name="Male">Male<br><input type="ratio" name="female">Female<br>
-                <input type="Submit" value="Register">
+                <label for="">Select Gender</label><br>
+                <input type="radio" name="Male">Male    <input type="radio" name="female">Female<br>
+                <label for="city"> Select your city</label>
+                <select name="city" id="" placeholde="City">
+                    <option value="Jaipur" >Jaipur</option>
+                    <option value="Jodhpur" >Jodhpur</option>
+                    <option value="Bikaner" >Bikaner</option>
+                    <option value="Nagaur" >Jaipur</option>
+                </select><br>
+                <label for="">Select your course</label>
+                <input type="checkbox" value="html">HTML
+                <input type="checkbox" value="css">CSS
+                <input type="checkbox" value="Java">Java
+                <input type="checkbox" value="javascript">JavaScript
+                <input type="checkbox" value="python">python<br>
+                <div>
+                    <lable for="">Write about yourself</lable>
+                    <textarea name="" id="" cols="80" rows="5" placeholder="Write about yourself"></textarea>
+                </div>
+                <div>
+                    <label for="">Upload your image</label>
+                    <input type="file" name="file" multiple>
+                </div>
+                <br><input type="Submit" value="Register">
             </form>
     </body>
 </html>
